@@ -3,7 +3,7 @@
 %define revision 1
 
 Name:           icingaweb2
-Version:        2.5.1
+Version:        2.5.2
 Release:        %{revision}%{?dist}
 Summary:        Icinga Web 2
 Group:          Applications/System
@@ -412,6 +412,9 @@ fi
 %{basedir}/library/vendor/Zend
 
 %changelog
+* Thu Apr 26 2018 Eric Lippmann <eric.lippmann@icinga.com> 2.5.2-1
+- Update to 2.5.2
+
 * Mon Jan 22 2018 Markus Frosch <markus.frosch@icinga.com> 2.5.1-1
 - Update to 2.5.1
 - Remove FPM patches
