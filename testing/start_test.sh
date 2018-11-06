@@ -30,7 +30,7 @@ elif [ -d /etc/php.d ]; then
     fpm="php-fpm"
 
     if [ -d /run ]; then
-      mkdir -p /run/php-fpm
+      sudo mkdir -p /run/php-fpm
     fi
   fi
 elif [ -d /etc/php5/conf.d ]; then
