@@ -28,6 +28,10 @@ elif [ -d /etc/php.d ]; then
   php_d=/etc/php.d
   if [ "$ID" = fedora ] && [ "$VERSION_ID" -ge 27 ]; then
     fpm="php-fpm"
+
+    if [ -d /run ]; then
+      mkdir -p /run/php-fpm
+    fi
   fi
 elif [ -d /etc/php5/conf.d ]; then
   php_d=/etc/php5/conf.d
