@@ -3,7 +3,7 @@
 %define revision 1
 
 Name:           icingaweb2
-Version:        2.6.2
+Version:        2.6.3
 Release:        %{revision}%{?dist}
 Summary:        Icinga Web 2
 Group:          Applications/System
@@ -412,6 +412,9 @@ fi
 %{basedir}/library/vendor/Zend
 
 %changelog
+* Wed Apr 24 2019 Johannes Meyer <johannes.meyer@icinga.com> 2.6.3-1
+- Update to 2.6.3
+
 * Wed Nov 21 2018 Eric Lippmann <eric.lippmann@icinga.com> 2.6.2-1
 - Update to 2.6.2
 
